@@ -8,8 +8,8 @@ def main(s):
     """
     ans = 0
     i = 0
-    while i <= len(s):
-        if str(s[i]).isdigit():
+    while i < len(s):
+        if s[i].isdigit():
             ans += 1
         i += 1
     return ans
