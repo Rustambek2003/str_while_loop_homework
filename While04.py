@@ -9,7 +9,7 @@ def main(s):
     ans = 0
     i = 0
     while i < len(s):
-        if s[i] == s[i].upper():
+        if s[i].isupper():
             ans += 1
         i += 1
 
