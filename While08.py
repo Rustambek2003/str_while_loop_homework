@@ -12,4 +12,4 @@ def main(s):
         if int(s[i]) % 2 != 0 :
             ans += 1
     i += 1
-    return
+    return ans
