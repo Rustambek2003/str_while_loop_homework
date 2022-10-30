@@ -11,7 +11,7 @@ def main(s):
     while i <= len(s):
         if s[i].isalpha():
             ans += 1
-    i += 1
+        i += 1
     return ans
 print(main('2ython 2022'))
 
