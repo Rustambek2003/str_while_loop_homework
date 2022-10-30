@@ -11,5 +11,5 @@ def main(s):
     while i < len(s):
         if int(s[i]) % 2 != 0 :
             ans += 1
-    i += 1
+        i += 1
     return ans
