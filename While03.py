@@ -9,7 +9,7 @@ def main(s):
     ans = 0
     i = 0
     while i <= len(s):
-        if s[i].isdigit():
+        if s[i].isdigit() or s[i].isalpha():
             ans += 0
         else:
             ans += 1
