@@ -11,6 +11,6 @@ def main(s):
     while i <= len(s):
         if s[i].isdigit():
             ans += 1
-    i += 1
+        i += 1
     return ans
-print(main('2ython 2022'))
+print(main('python 2022'))
