@@ -8,7 +8,7 @@ def main(s):
     """
     ans = 0
     i = 0
-    while i <= len(s):
+    while i < len(s):
         if s[i].isalpha():
             ans += 1
         i += 1
